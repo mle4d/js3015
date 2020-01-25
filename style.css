@@ -8,6 +8,7 @@ html {
 }
 .controls {
   font-family: 'Josefin Sans', sans-serif;
+  font-size: 2em;
   position: fixed;
   left: 5%;
   top: 5%;
@@ -15,7 +16,7 @@ html {
 }
 input[type="color" i] {
   -webkit-appearance: square-button;
-  width: 44px;
+  width: 100%;
   height: 23px;
   background-color: none;
   cursor: default;
