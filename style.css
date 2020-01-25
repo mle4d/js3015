@@ -3,8 +3,12 @@ html {
   background-image: url(assets/mlpbg.png);
   left: 27%;
   bottom: 101%;
+  background-color: var(--base);
   background-repeat: no-repeat;
   position: fixed; 
+}
+:root {
+  --base: #ffffff;
 }
 .controls {
   font-family: 'Josefin Sans', sans-serif;
@@ -17,8 +21,9 @@ html {
 input[type="color" i] {
   -webkit-appearance: square-button;
   width: 100%;
-  height: 23px;
+  height: 5vh;
   background-color: none;
+  outline: var(--base);
   cursor: default;
   border-width: 0px;
   border-style: none;
