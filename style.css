@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Irish+Grover|Josefin+Sans:600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Atma|Bahianita|Cherry+Cream+Soda|Farsan|Irish+Grover|Josefin+Sans:600|Lakki+Reddy|Mountains+of+Christmas|Unkempt:700&display=swap');
 html {
   background-image: url(assets/mlpbg.png);
   position: fixed; 
@@ -22,33 +22,47 @@ body {
   position: fixed;
   left: 0%;
   top: 0%;
-  background: #F14C88;
-  background: -moz-linear-gradient(-45deg, #F14C88 0%, #FA6513 50%, #F77291 100%);
-  background: -webkit-linear-gradient(-45deg, #F14C88 0%, #FA6513 50%, #F77291 100%);
-  background: linear-gradient(135deg, #F14C88 0%, #FA6513 50%, #F77291 100%);
-}
-h1 {
-  font-family: 'Irish Grover', cursive;
-  font-size: 4em;
-  text-align: center;
   background: -moz-linear-gradient(-45deg, #BB1C76 0%, #3887D6 50%, #691992 100%);
   background: -webkit-linear-gradient(-45deg, #BB1C76 0%, #3887D6 50%, #691992 100%);
   background: linear-gradient(135deg, #BB1C76 0%, #3887D6 50%, #691992 100%);
+}
+#h12 {
+  font-family: 'Atma', cursive;
+  font-size: 4.1em;
+  text-align: center;
+  color: #ffffff;
+  position: fixed;
+  left:1.6%;
+  top: -3.2%;
+}
+#h11 {
+  font-family: 'Atma', cursive;
+  font-size: 4em;
+  text-align: center;
+  background: #EA4D82;
+  background: -moz-linear-gradient(left, #F4781E 0%, #EA4D82 51%, #F4781E 100%);
+  background: -webkit-linear-gradient(left, #F4781E 0%, #EA4D82 51%, #F4781E 100%);
+  background: linear-gradient(to right, #F4781E 0%, #EA4D82 51%, #F4781E 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position: fixed;
-  color: #ffffff;
-  left:4%;
+  left:2%;
   top: -3%;
 }
 .controls {
   font-family: 'Irish Grover', cursive;
   color: #ffffff;
   font-size: 2em;
+  background: #EA4D82;
+  background: -moz-linear-gradient(left, #F4781E 0%, #EA4D82 51%, #F4781E 100%);
+  background: -webkit-linear-gradient(left, #F4781E 0%, #EA4D82 51%, #F4781E 100%);
+  background: linear-gradient(to right, #F4781E 0%, #EA4D82 51%, #F4781E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   position: fixed;
   text-align: center;
   left: 9%;
-  top: 30%;
+  top: 20%;
 }
 input[type="color" i] {
   -webkit-appearance: sliderthumb-horizontal;
