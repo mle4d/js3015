@@ -5,3 +5,21 @@ html {
   background-repeat: no-repeat;
   position: fixed; 
 }
+.controls {
+  position: fixed;
+  left: 5%;
+  top: 5%;
+  border: none;
+}
+input[type="color" i] {
+  -webkit-appearance: square-button;
+  width: 44px;
+  height: 23px;
+  background-color: none;
+  cursor: default;
+  border-width: 0px;
+  border-style: none;
+  border-color: transparent;
+  border-image: none;
+  padding: 0px 0px;
+}
