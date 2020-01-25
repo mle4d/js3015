@@ -1,0 +1,7 @@
+html {
+  background-image: url(assets/mlpbg.png);
+  left: 27%;
+  bottom: 101%;
+  background-repeat: no-repeat;
+  position: fixed; 
+}
