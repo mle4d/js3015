@@ -24,5 +24,11 @@
       }
       inputs.forEach(input => input.addEventListener('change', handleUpdate));
       inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
+
+  function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
 </script>
 </html>
