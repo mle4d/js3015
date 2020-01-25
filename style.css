@@ -1,14 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Irish+Grover|Josefin+Sans:600&display=swap');
 html {
   background-image: url(assets/mlpbg.png);
-  left: 27%;
-  bottom: 101%;
+  position: fixed; 
+  right: 70%;
+  top: -3%;
   background-color: var(--base);
   background-repeat: no-repeat;
-  position: fixed; 
+  overscroll-behavior: none;
+}
+body {
+  margin: 0;
+  overscroll-behavior: none;
 }
 :root {
   --base: #ffffff;
+}
+#bg {
+  width: 30vw;
+  height: 100vh;
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  background-color: #f6a3c1;
 }
 h1 {
   font-family: 'Irish Grover', cursive;
@@ -17,7 +30,7 @@ h1 {
   left: 2%;
   top: 0%;
 }
-.controls {
+#controls {
   font-family: 'Irish Grover', cursive;
   font-size: 2em;
   position: fixed;
