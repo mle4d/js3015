@@ -64,6 +64,21 @@ body {
   left: 9%;
   top: 20%;
 }
+h3 {
+  font-family: 'Irish Grover', cursive;
+  color: #ffffff;
+  font-size: 2em;
+  background: #EA4D82;
+  background: -moz-linear-gradient(left, #F4781E 0%, #EA4D82 51%, #F4781E 100%);
+  background: -webkit-linear-gradient(left, #F4781E 0%, #EA4D82 51%, #F4781E 100%);
+  background: linear-gradient(to right, #F4781E 0%, #EA4D82 51%, #F4781E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: fixed;
+  text-align: center;
+  left: 9%;
+  top: 30%;
+}
 input[type="color" i] {
   -webkit-appearance: sliderthumb-horizontal;
   width: 100%;
