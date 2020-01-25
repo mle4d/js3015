@@ -77,3 +77,11 @@ input[type="color" i] {
   border-image: none;
   padding: 0px 0px;
 }
+#div4 {
+  position: fixed;
+  left: 61.2%;
+  bottom: 26%;
+  width: 50px;
+  height: 50px;
+  border: solid 2px black;
+}
