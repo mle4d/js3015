@@ -10,12 +10,19 @@ html {
 :root {
   --base: #ffffff;
 }
+h1 {
+  font-family: 'Irish Grover', cursive;
+  font-size: 3em;
+  position: fixed;
+  left: 2%;
+  top: 0%;
+}
 .controls {
   font-family: 'Irish Grover', cursive;
   font-size: 2em;
   position: fixed;
   left: 5%;
-  top: 5%;
+  top: 15%;
   border: none;
 }
 input[type="color" i] {
