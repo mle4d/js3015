@@ -18,18 +18,28 @@ body {
 #bg {
   width: 30vw;
   height: 100vh;
+  border-radius: 20px;
   position: fixed;
   left: 0%;
   top: 0%;
-  background-color: #f6a3c1;
+  background: #F14C88;
+  background: -moz-linear-gradient(-45deg, #F14C88 0%, #FA6513 50%, #F77291 100%);
+  background: -webkit-linear-gradient(-45deg, #F14C88 0%, #FA6513 50%, #F77291 100%);
+  background: linear-gradient(135deg, #F14C88 0%, #FA6513 50%, #F77291 100%);
 }
 h1 {
   font-family: 'Irish Grover', cursive;
-  font-size: 3em;
+  font-size: 4em;
+  text-align: center;
+  background: -moz-linear-gradient(-45deg, #BB1C76 0%, #3887D6 50%, #691992 100%);
+  background: -webkit-linear-gradient(-45deg, #BB1C76 0%, #3887D6 50%, #691992 100%);
+  background: linear-gradient(135deg, #BB1C76 0%, #3887D6 50%, #691992 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   position: fixed;
   color: #ffffff;
-  left: 3%;
-  top: 0%;
+  left:4%;
+  top: -3%;
 }
 .controls {
   font-family: 'Irish Grover', cursive;
@@ -38,7 +48,7 @@ h1 {
   position: fixed;
   text-align: center;
   left: 9%;
-  top: 15%;
+  top: 30%;
 }
 input[type="color" i] {
   -webkit-appearance: sliderthumb-horizontal;
