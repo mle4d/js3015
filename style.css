@@ -64,7 +64,7 @@ body {
   left: 8.5%;
   top: 17%;
 }
-h2 {
+#cmh {
   font-family: 'Irish Grover', cursive;
   color: #ffffff;
   font-size: 2em;
@@ -182,14 +182,13 @@ input[type="color" i] {
 }
 #name {
   position: fixed;
-  left: 40%;
-  top: 77%;
-  font-size: 4em;
-  background: -moz-linear-gradient(-45deg, #BB1C76 0%, #3887D6 50%, #691992 100%);
-  background: -webkit-linear-gradient(-45deg, #BB1C76 0%, #3887D6 50%, #691992 100%);
-  background: linear-gradient(135deg, #BB1C76 0%, #3887D6 50%, #691992 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  left: 47%;
+  top: -10%;
+  font-family: 'Irish Grover', cursive;
+  text-align: center;
+  font-size: 6em;
+  color: #EA4D82;
+  text-shadow: -2px -2px 0 #FFFFFF, 2px -2px 0 #FFFFFF, -2px 2px 0 #FFFFFF, 2px 2px 0 #FFFFFF;
 }
 input [type="text" i] {
   font-family: 'Irish Grover', cursive;
