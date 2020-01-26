@@ -182,8 +182,14 @@ input[type="color" i] {
 }
 #name {
   position: fixed;
-  left: 50%;
+  left: 40%;
   top: 77%;
+  font-size: 4em;
+  background: -moz-linear-gradient(-45deg, #BB1C76 0%, #3887D6 50%, #691992 100%);
+  background: -webkit-linear-gradient(-45deg, #BB1C76 0%, #3887D6 50%, #691992 100%);
+  background: linear-gradient(135deg, #BB1C76 0%, #3887D6 50%, #691992 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 input [type="text" i] {
   font-family: 'Irish Grover', cursive;
