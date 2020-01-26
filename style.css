@@ -208,7 +208,7 @@ small {
   font-family: 'Irish Grover', cursive;
   text-align: center;
   font-size: 6em;
-  color: #ea4f7b;
+  color: var(--base);
   text-shadow: -2px -2px 0 #FFFFFF, 2px -2px 0 #FFFFFF, -2px 2px 0 #FFFFFF, 2px 2px 0 #FFFFFF;
 }
 #typename {
