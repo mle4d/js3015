@@ -28,12 +28,12 @@ body {
 }
 #h12 {
   font-family: 'Atma', cursive;
-  font-size: 4.1em;
+  font-size: 4em;
   text-align: center;
   color: #ffffff;
   position: fixed;
-  left:1.6%;
-  top: -3.2%;
+  left:1.35%;
+  top: -3.1%;
 }
 #h11 {
   font-family: 'Atma', cursive;
@@ -46,7 +46,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position: fixed;
-  left:2%;
+  left:1%;
   top: -3%;
 }
 .controls {
@@ -61,10 +61,10 @@ body {
   -webkit-text-fill-color: transparent;
   position: fixed;
   text-align: center;
-  left: 9%;
-  top: 20%;
+  left: 8.5%;
+  top: 17%;
 }
-h3 {
+h2 {
   font-family: 'Irish Grover', cursive;
   color: #ffffff;
   font-size: 2em;
@@ -76,8 +76,22 @@ h3 {
   -webkit-text-fill-color: transparent;
   position: fixed;
   text-align: center;
-  left: 9%;
-  top: 29%;
+  left: 8.7%;
+  top: 26%;
+}
+small {
+  position: fixed;
+  left: 8.5%;
+  top: 35%;
+  font-family: 'Cherry Cream Soda', cursive;
+  color: #ffffff;
+  font-size: 1.2em;
+  background: #EA4D82;
+  background: -moz-linear-gradient(left, #F4781E 0%, #EA4D82 51%, #F4781E 100%);
+  background: -webkit-linear-gradient(left, #F4781E 0%, #EA4D82 51%, #F4781E 100%);
+  background: linear-gradient(to right, #F4781E 0%, #EA4D82 51%, #F4781E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 input[type="color" i] {
   -webkit-appearance: sliderthumb-horizontal;
