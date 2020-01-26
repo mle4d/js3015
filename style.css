@@ -172,6 +172,11 @@ small {
   width: 50px;
   height: 60px;
 }
+#CM:hover {
+  cursor: pointer;
+  -webkit-filter: drop-shadow( 0 0 20px #f1adbc);
+  filter: drop-shadow( 0 0 20px #f9ccd6);
+}
 .add-items {
   position: fixed;
   left: 8%;
