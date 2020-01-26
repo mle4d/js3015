@@ -59,9 +59,10 @@ body {
   background: linear-gradient(to right, #EA4D82 0%, #F4781E 51%, #EA4D82 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  border-radius: 20px;
   position: fixed;
   text-align: center;
-  left: 8.5%;
+  left: 9.5%;
   top: 17%;
 }
 #cmh {
@@ -76,12 +77,12 @@ body {
   -webkit-text-fill-color: transparent;
   position: fixed;
   text-align: center;
-  left: 8.7%;
+  left: 9%;
   top: 26%;
 }
 small {
   position: fixed;
-  left: 8.5%;
+  left: 9%;
   top: 35%;
   font-family: 'Cherry Cream Soda', cursive;
   color: #ffffff;
@@ -93,18 +94,20 @@ small {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-input[type="color" i] {
+#base {
   -webkit-appearance: sliderthumb-horizontal;
-  width: 100%;
+  width: 15%;
   height: 5vh;
-  background-color: none;
+  background-color: #EA4D82;
   outline: var(--base);
   cursor: default;
-  border-width: 0px;
-  border-style: none;
-  border-color: transparent;
-  border-image: none;
+  border-radius: 20px;
+  border: solid 3px #EA4D82;
   padding: 0px 0px;
+  color: #ffffff;
+  position: fixed;
+  left: 8%;
+  top: 23%;
 }
 .cutieMark {
   margin: 20px;
@@ -172,13 +175,21 @@ input[type="color" i] {
 .add-items {
   position: fixed;
   left: 8%;
-  bottom: 5%;
+  bottom: 3%;
   font-family: 'Cherry Cream Soda', cursive;
 }
 #pname {
   position: fixed;
-  left: 8%;
-  top: 77%;
+  left: 9%;
+  top: 78%;
+  font-family: 'Irish Grover', cursive;
+  font-size: 2em;
+  background: #EA4D82;
+  background: -moz-linear-gradient(left, #F4781E 0%, #EA4D82 51%, #F4781E 100%);
+  background: -webkit-linear-gradient(left, #F4781E 0%, #EA4D82 51%, #F4781E 100%);
+  background: linear-gradient(to right, #F4781E 0%, #EA4D82 51%, #F4781E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #name {
   position: fixed;
@@ -187,9 +198,47 @@ input[type="color" i] {
   font-family: 'Irish Grover', cursive;
   text-align: center;
   font-size: 6em;
-  color: #EA4D82;
+  color: #ea4f7b;
   text-shadow: -2px -2px 0 #FFFFFF, 2px -2px 0 #FFFFFF, -2px 2px 0 #FFFFFF, 2px 2px 0 #FFFFFF;
 }
-input [type="text" i] {
-  font-family: 'Irish Grover', cursive;
+#typename {
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: #691992;
+  font-family: 'Cherry Cream Soda', cursive;
+  font-size: 1em;
+  outline: none;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  -webkit-appearance: textfield;
+  background-color: #ffffff;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  margin: 0em;
+  padding: 1px;
+  border-radius: 20px;
+  border: solid 4px #EA4D82;
+  height: 5vh;
+  width: 15vw;
+  position: fixed;
+  left: 5%;
+  top: 90%;
+}
+#submitname {
+  font-family: 'Cherry Cream Soda', cursive;
+  font-size: 1em;
+  color: #691992;
+  border-radius: 20px;
+  border: solid 4px #EA4D82;
+  width: 5vw;
+  height: 7vh;
+  outline: none;
+  position: fixed;
+  left: 21.2%;
+  top: 90%;
 }
