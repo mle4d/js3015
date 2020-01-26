@@ -117,5 +117,8 @@ function drag(ev) {
   var data = ev.dataTransfer.getData("text");
   ev.target.appendChild(document.getElementById(data));
 }
+function myFunction(element) {
+    document.getElementById("name").innerHTML = element.value;
+  }
 </script>
 </html>
