@@ -168,6 +168,11 @@ small {
   width: 50px;
   height: 50px;
 }
+#div4:hover {
+  cursor: pointer;
+  -webkit-filter: drop-shadow( 0 0 20px #f1adbc);
+  filter: drop-shadow( 0 0 20px #f9ccd6);
+}
 #CM {
   width: 50px;
   height: 60px;
